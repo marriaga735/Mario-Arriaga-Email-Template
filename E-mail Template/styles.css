@@ -1,0 +1,105 @@
+body, html{
+    margin: 0px;
+    display: flex;
+}
+
+.card1:hover{
+    color:rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 1em;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.75);
+}
+
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+}
+
+.col-sm-2{
+    background-color: #1F271B;;
+    height: 100vh;
+    opacity: .95;
+    
+}
+
+.col-sm-4{
+    background-color: rgb(214, 207, 195);
+    opacity: 0.9;
+    height: 100vh;
+}
+
+.col-sm-6{
+    background-color: #fdf8f4c2;
+    opacity: 0.7;
+    height: 100vh;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.date-time{
+    float: right;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.from {
+    font-size: 12px;
+}
+
+#greeting{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    font-weight: normal;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+li{
+    padding-bottom: 10px;
+   
+}
+
+.menu{
+    color:white;
+    font-size: 18px;
+    list-style-type: none; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+}
+
+.nav-link {
+    color: white;
+    padding-left: 0px;
+}
+
+#search-bar{
+    position: relative;
+    width: 100%;
+    justify-items: center;
+    border-color: white; 
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    height: 100px;
+}
+
+.to {
+    font-size: 12px;
+    margin: none;
+}
+
+.welcome{
+    margin-bottom: 45px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+
+
